@@ -1,0 +1,32 @@
+html,
+head {
+    display: flex;
+    background-color: rgb(217, 217, 234);   
+}
+body {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+main {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+}
+main, article {
+    flex: 2;
+    overflow-y: auto;
+    background-color: rgb(217, 160, 75);
+    margin: 10px;
+}
+main, aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: rgb(217, 160, 75);
+    margin: 10px;
+}
+span.logo {
+    font-size: 300%;
+}

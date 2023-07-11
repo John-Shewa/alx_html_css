@@ -1,0 +1,1 @@
+This project is on how to use flex box. In this project the HTML and CSS starter files are copied to the respective directory and the neccessary changes are made to the files using the instructions given for each task.

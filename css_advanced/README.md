@@ -1,0 +1,1 @@
+This project is continued from the html_advanced project. In the previous project the html part was structured and in this project the css part will be done.

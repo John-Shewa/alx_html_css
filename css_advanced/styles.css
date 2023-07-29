@@ -1,0 +1,109 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+.smile{
+    background-image: url(./images/Object.png);
+    flex-shrink: 0;
+    padding: 20px;
+    background-repeat: no-repeat;
+    height: 1055px;
+}
+/* Header */
+.header {
+    background-color: none;
+    padding: 10px;
+    margin-top: 0px;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 167.016px;
+    height: 29.461px;
+    flex-shrink: 0;
+    margin-left: 175px;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    height: 15px;
+    float: right;
+    gap: 0px;
+    flex-shrink: 0;
+    margin-right: 100px;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .nav-item a:hover {
+    background-color: rgb(43, 42, 42);
+  }
+
+  /*get schooled*/
+  .schooled {
+      padding: 20px;
+      
+      margin-top: 105px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      
+  }
+  h1 a {
+    color:#FFF;
+    text-decoration: none;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .schooled .menu a {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    margin: 30px;
+    margin-left: 20px;
+  }
+ .main {
+    text-align: center;
+ }
+
+ .main .button {
+  color: #FFF;
+  background-color: #C271FF;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 644px;
+  margin-right: 644px;
+  width: 162px;
+  height: 44px;
+  flex-shrink: 0;
+  margin: 30px;
+ }

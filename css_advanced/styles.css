@@ -1,15 +1,15 @@
 html, body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-.smile{
-    background-image: url(./images/Object.png);
-    flex-shrink: 0;
-    padding: 20px;
-    background-repeat: no-repeat;
+    width: 1450px;
     height: 1055px;
+    margin: 0px;
+    padding: 0px;
+  }
+.smile {
+    background-image: url(./images/Object.png);
+    height: 1055px;
+    flex-shrink: 0;
+    padding: 0px;
+    background-repeat: no-repeat;
 }
 /* Header */
 .header {
@@ -35,7 +35,7 @@ html, body {
     float: right;
     gap: 0px;
     flex-shrink: 0;
-    margin-right: 100px;
+    margin-right: 20px;
   }
   
   .nav-item {
@@ -91,19 +91,78 @@ html, body {
     margin: 30px;
     margin-left: 20px;
   }
- .main {
-    text-align: center;
- }
 
- .main .button {
+  .menu h5 {
+    margin-left: 10px;
+    float:inline-end;
+  }
+ 
+ .schooled .button {
   color: #FFF;
   background-color: #C271FF;
   border-radius: 20px;
   cursor: pointer;
-  margin-left: 644px;
-  margin-right: 644px;
   width: 162px;
   height: 44px;
   flex-shrink: 0;
-  margin: 30px;
+  margin: 60px;
+  border-color: none;
  }
+
+ .schooled .button:hover {
+  background-color: #40046d;
+ }
+
+ .main {
+  text-align: center;
+  
+}
+
+.main h2 a {
+  text-decoration: none;
+  color:#FFF;
+}
+
+.main .pro {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.main .pro .IMAGE {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+.main .pro .title {
+  color: #FFF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 27px;
+}
+
+.main .pro .SUB-TITLE {
+  width: 150px;
+  color: #FFF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.testimonials {
+  width: 1440px;
+  height: 392px;
+  flex-shrink: 0;
+  background-color: #C271FF;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonials .main .image
+

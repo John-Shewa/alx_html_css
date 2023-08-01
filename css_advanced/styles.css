@@ -209,3 +209,90 @@ html, body {
   font-weight: 400;
   line-height: 33.6px;
 }
+
+.tutorials {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  text-align: center;
+  flex-direction: column;
+}
+.tutorials .main4 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.tutorials h2 a {
+  color: #071629;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal; 
+  text-decoration: none;
+}
+span {
+  color: #C271FF;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.tutorials .main4 nav {
+  width: 255px;
+  height: 335px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+}
+
+.tutorials .main4 nav p.name {
+  color: #071629;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tutorials .main4 nav p.discription {
+  width: 242px;
+  color: rgba(7, 22, 41, 0.50);
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.tutorials .main4 nav img.reviewer {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  float: left;
+  margin: 0px;
+  padding: 20px;
+}
+
+.tutorials .main4 nav p.reviewername{
+  color: #C271FF;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  margin: 10px;
+  text-align: left;
+}
+
+.tutorials .main4 nav img.rate{
+  width: 107px;
+  height: 15px;
+  flex-shrink: 0;
+  margin-right: 75px;
+  padding: 0px;
+}

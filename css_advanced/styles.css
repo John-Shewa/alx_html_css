@@ -1,20 +1,21 @@
 html, body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-.smile{
-    background-image: url(./images/Object.png);
-    flex-shrink: 0;
-    padding: 20px;
-    background-repeat: no-repeat;
+    width: 1450px;
     height: 1055px;
+    margin: 0px;
+    padding: 0px;
+  }
+.smile {
+    background-image: url(./images/Object.png);
+    background-size: cover;
+    height: 1055px;
+    flex-shrink: 0;
+    padding: 0px;
+    background-repeat: no-repeat;
 }
 /* Header */
 .header {
     background-color: none;
-    padding: 10px;
+    padding: 60px;
     margin-top: 0px;
     align-items: center;
   }
@@ -24,18 +25,19 @@ html, body {
     height: 29.461px;
     flex-shrink: 0;
     margin-left: 175px;
+    padding: 10px;
   }
   
   .menu {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     display: inline-flex;
     height: 15px;
     float: right;
     gap: 0px;
     flex-shrink: 0;
-    margin-right: 100px;
+    margin-right: 20px;
   }
   
   .nav-item {
@@ -91,19 +93,233 @@ html, body {
     margin: 30px;
     margin-left: 20px;
   }
- .main {
-    text-align: center;
- }
 
- .main .button {
+  .menu h5 {
+    margin-left: 10px;
+    float:inline-end;
+  }
+ 
+ .schooled .button {
   color: #FFF;
   background-color: #C271FF;
   border-radius: 20px;
   cursor: pointer;
-  margin-left: 644px;
-  margin-right: 644px;
   width: 162px;
   height: 44px;
   flex-shrink: 0;
-  margin: 30px;
+  margin: 60px;
+  border-color: none;
  }
+
+ .schooled .button:hover {
+  background-color: #40046d;
+ }
+
+ .main {
+  text-align: center;
+  
+}
+
+.main h2 a {
+  text-decoration: none;
+  color:#FFF;
+}
+
+.main .pro {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.main .pro .IMAGE {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+.main .pro .title {
+  color: #FFF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 27px;
+}
+
+.main .pro .SUB-TITLE {
+  width: 150px;
+  color: #FFF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+}
+.smile, .testimonials {
+  border: none;
+}
+
+.testimonials {
+  width: 1450px;
+  height: 400px;
+  flex-shrink: 0;
+  background-color: #C271FF;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.testimonials .testimony p {
+  flex-direction: column;
+}
+
+.testimonials img {
+  float: left;
+  margin-left: 140px;
+}
+.testimonials .testimony1, .testimony2, .testimony3 {
+  text-align: left;
+  padding: 0;
+} 
+
+.testimonials .testimony1 {
+  width: 730px;
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+
+.testimonials .testimony2 {
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.6px;
+}
+.testimonials .testimony3 {
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+
+.tutorials {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  text-align: center;
+  flex-direction: column;
+}
+.tutorials .main4 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.tutorials h2 a {
+  color: #071629;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal; 
+  text-decoration: none;
+}
+.tutorials span {
+  color: #C271FF;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.tutorials .main4 nav {
+  width: 255px;
+  height: 335px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+}
+
+.tutorials .main4 nav p.name {
+  color: #071629;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tutorials .main4 nav p.discription {
+  width: 242px;
+  color: rgba(7, 22, 41, 0.50);
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.tutorials .main4 nav img.reviewer {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  float: left;
+  margin: 0px;
+  padding: 20px;
+}
+
+.tutorials .main4 nav p.reviewername{
+  color: #C271FF;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  margin: 10px;
+  text-align: left;
+}
+
+.tutorials .main4 nav img.rate{
+  width: 107px;
+  height: 15px;
+  flex-shrink: 0;
+  margin-right: 75px;
+  padding: 0px;
+}
+.membership {
+  width: 1440px;
+  height: 502px;
+  flex-shrink: 0;
+  background-color: #071629;
+  text-align: center;
+}
+
+.membership h2 a {
+  color: #C271FF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.membership span {
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}

@@ -233,7 +233,7 @@ html, body {
   line-height: normal; 
   text-decoration: none;
 }
-span {
+.tutorials span {
   color: #C271FF;
   font-family: Source Sans Pro;
   font-size: 32px;
@@ -295,4 +295,31 @@ span {
   flex-shrink: 0;
   margin-right: 75px;
   padding: 0px;
+}
+.membership {
+  width: 1440px;
+  height: 502px;
+  flex-shrink: 0;
+  background-color: #071629;
+  text-align: center;
+}
+
+.membership h2 a {
+  color: #C271FF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.membership span {
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }

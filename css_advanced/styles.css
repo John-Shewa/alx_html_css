@@ -6,6 +6,7 @@ html, body {
   }
 .smile {
     background-image: url(./images/Object.png);
+    background-size: cover;
     height: 1055px;
     flex-shrink: 0;
     padding: 0px;
@@ -14,7 +15,7 @@ html, body {
 /* Header */
 .header {
     background-color: none;
-    padding: 10px;
+    padding: 60px;
     margin-top: 0px;
     align-items: center;
   }
@@ -24,12 +25,13 @@ html, body {
     height: 29.461px;
     flex-shrink: 0;
     margin-left: 175px;
+    padding: 10px;
   }
   
   .menu {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     display: inline-flex;
     height: 15px;
     float: right;
@@ -153,16 +155,57 @@ html, body {
   font-weight: 400;
   line-height: 24px;
 }
+.smile, .testimonials {
+  border: none;
+}
 
 .testimonials {
-  width: 1440px;
-  height: 392px;
+  width: 1450px;
+  height: 400px;
   flex-shrink: 0;
   background-color: #C271FF;
   margin-top: 0px;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.testimonials .main .image
+.testimonials .testimony p {
+  flex-direction: column;
+}
 
+.testimonials img {
+  float: left;
+  margin-left: 140px;
+}
+.testimonials .testimony1, .testimony2, .testimony3 {
+  text-align: left;
+  padding: 0;
+} 
+
+.testimonials .testimony1 {
+  width: 730px;
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+
+.testimonials .testimony2 {
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.6px;
+}
+.testimonials .testimony3 {
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 33.6px;
+}

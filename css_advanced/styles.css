@@ -1,6 +1,5 @@
 html, body {
-    width: 1450px;
-    height: 1055px;
+    box-sizing: auto;
     margin: 0px;
     padding: 0px;
   }
@@ -64,7 +63,6 @@ html, body {
   /*get schooled*/
   .schooled {
       padding: 20px;
-      
       margin-top: 30px;
       align-items: center;
       display: flex;
@@ -160,7 +158,6 @@ html, body {
 }
 
 .testimonials {
-  width: 1450px;
   height: 400px;
   flex-shrink: 0;
   background-color: #C271FF;
@@ -297,7 +294,7 @@ html, body {
   padding: 0px;
 }
 .membership {
-  width: 1440px;
+  width: 1350px;
   height: 502px;
   flex-shrink: 0;
   background-color: #071629;
@@ -429,4 +426,52 @@ html, body {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+}
+
+.footer {
+  width: 1440px;
+  height: 249px;
+  flex-shrink: 0;
+  background: #071629;
+  justify-content: center;
+}
+
+.footer .logos .smilelogo {
+  width: 36.388px;
+  height: 29.461px;
+  margin-left: 50px;
+  padding: 30px;
+  float: left;
+}
+
+.footer .logos p {
+  color: #FFF;
+  font-family: Coiny;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  float: left;
+  padding: 20px;
+}
+
+.footer .logos .socials {
+  width: 130px;
+  height: 30px;
+  flex-shrink: 0;
+  float: right;
+  margin-right: 450px;
+  padding: 50px;
+}
+
+.footer .copyright p {
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: center;
+  padding: 150px;
+  margin-left: 300px;
 }
